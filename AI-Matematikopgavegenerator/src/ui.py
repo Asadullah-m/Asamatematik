@@ -13,7 +13,7 @@ def show_ui():
     ]
 
     st.title("📚🤖 AI Matematikopgavegenerator")
-    st.write("💡 Vælg et matematikemne, og lad AI’en forklare og give dig opgaver!")
+    st.write("💡 Vælg et matematikemne, og lad mig forklare og give dig opgaver!")
 
     selected_topic = st.selectbox("📌 Vælg et emne:", topics)
     difficulty = st.selectbox("📏 Vælg sværhedsgrad:", ["Let", "Mellem", "Svær"])
